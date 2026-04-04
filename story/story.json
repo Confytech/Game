@@ -1,0 +1,34 @@
+{
+  "start": {
+    "text": "You wake up in a dark forest. Two paths lie ahead.",
+    "choices": {
+      "1": "Go left",
+      "2": "Go right"
+    },
+    "next": {
+      "1": "left_path",
+      "2": "right_path"
+    }
+  },
+  "left_path": {
+    "text": "You encounter a wild wolf!",
+    "choices": {
+      "1": "Fight",
+      "2": "Run"
+    },
+    "next": {
+      "1": "fight_wolf",
+      "2": "run_away"
+    }
+  },
+  "fight_wolf": {
+    "text": "You lost. Game Over.",
+    "choices": {},
+    "next": {}
+  },
+  "run_away": {
+    "text": "You escaped safely. You win!",
+    "choices": {},
+    "next": {}
+  }
+}
